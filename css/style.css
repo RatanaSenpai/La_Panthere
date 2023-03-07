@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    /* width: 100%; */
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -507,6 +507,9 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    display: block;
+    padding: 10px 70px;
+    border-radius: 5px;
 }
 
 .scrollToTop {
@@ -645,7 +648,7 @@ h4,
 h5,
 h6,
 p,
-label,
+/* label, */
 .btn,
 a {
     font-family: "helvetica";
@@ -653,9 +656,16 @@ a {
     color: #FFFFFF;
 }
 
-.container {
-    max-width: 1000px;
+label {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: black;
 }
+
+
+/* .container {
+    max-width: 1000px;
+} */
 
 .hero-bloc-text {
     font-size: 38px;
@@ -780,6 +790,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #7d4b39;
     color: #FFFFFF!important;
+    margin-left: 10px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -812,6 +823,10 @@ h4 {
     background-image: url("../img/agence-la-panthere.webp");
 }
 
+.text-center {
+    text-align: center;
+}
+
 .bg-lines-h2-bg {
     background-image: url("../img/lines-h2-bg.png");
 }
@@ -822,6 +837,10 @@ h4 {
 
 .bg-presentation {
     background-image: url("../img/image-de-presentation.webp");
+}
+
+.form-group {
+    padding: 10px;
 }
 
 @media (max-width: 1024px) {
