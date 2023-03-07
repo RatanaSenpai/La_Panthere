@@ -435,7 +435,9 @@ nav .caret {
 }
 
 .text-center-subtext {
-    color: black
+    color: black;
+    font-size: 14px;
+    text-align: center;
 }
 
 .mg-lg {
@@ -749,6 +751,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 400px;
+    margin: 25px auto 25px auto;
 }
 
 .portfolio-row {
@@ -772,10 +776,6 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
-}
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
@@ -843,7 +843,18 @@ h4 {
 
 .address {
     color: black;
-    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.introduction-text {
+    color: black;
+}
+.quote,.author {
+    color: black;
+}
+.portfolio-text {
+    color: black;
+    font-size: 22px;
 }
 
 @media (max-width: 1024px) {
