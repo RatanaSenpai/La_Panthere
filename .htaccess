@@ -1,0 +1,18 @@
+# Activer la mise en cache pour les fichiers CSS
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access plus 1 month"
+</IfModule>
+
+# Activer la mise en cache pour les fichiers JS
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# Activer la mise en cache pour les images
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/webp "access plus 1 month"
+</IfModule>
