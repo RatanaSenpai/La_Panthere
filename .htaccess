@@ -16,3 +16,10 @@ ExpiresByType application/javascript "access plus 1 month"
 ExpiresActive On
 ExpiresByType image/webp "access plus 1 month"
 </IfModule>
+
+# Ajouter des en-têtes HTTP pour les fichiers statiques
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|gif|jpe?g|png|svg|woff|woff2|webp|ico)$">
+        Header set Cache-Control "max-age=2592000, public"
+    </FilesMatch>
+</IfModule>
