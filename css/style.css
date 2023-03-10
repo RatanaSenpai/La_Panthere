@@ -778,10 +778,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-/* .bgc-atomic-tangerine {
-    background-color: #575757 ;
-} */
-
 .tc-white {
     color: #000000!important;
 }
@@ -819,7 +815,6 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("../img/agence-la-panthere.webp");
-    filter: brightness(1.5);
 }
 
 .text-center {
