@@ -819,6 +819,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("../img/agence-la-panthere.webp");
+    filter: brightness(1.5);
 }
 
 .text-center {
