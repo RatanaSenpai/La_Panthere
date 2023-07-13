@@ -1,5 +1,5 @@
 
-# Projet 4 Optimisez un site web existant
+# ![Logo](https://github.com/thierry-laval/archives/blob/master/images/Logo_OpenClassrooms.png?raw=true) Projet 4 Optimisez un site web existant
 
 Il s'agit du projet 4 du parcours de la formation OpenClassRooms qui va permettre d'évaluer les compétences suivantes:
 
