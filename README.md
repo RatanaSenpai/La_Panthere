@@ -33,7 +33,7 @@ Ma mission est d'améliorer les points suivants:
 
 ## Demo
 
-https://ratanasenpai.github.io/La-Panthere/
+https://ratanasenpai.github.io/La_Panthere/
 
 
 ## Screenshots
