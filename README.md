@@ -9,6 +9,9 @@ Il s'agit du projet 4 du parcours de la formation OpenClassRooms qui va permettr
 - Assurer l'accessibilité d'un site web
 - Optimiser le référencement d'un site web
 
+## Objectif à la fin projet:
+- Augmenter le trafic grâce au référencement naturel SEO
+- Optimiser le référencement en améliorant les performances techniques
 
 ## La Panthère
 
